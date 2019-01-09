@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: AOPTest
+server:
+  port: 8080
