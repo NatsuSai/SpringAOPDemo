@@ -2,8 +2,10 @@ package com.abc.advice;
 
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
 
 @Aspect
+@Component
 public class AfterThrowingAdviceTest {
     @AfterThrowing(throwing="ex",pointcut="execution(* com.abc.service.*.afterThrow*(..))")
     public void handleException(Throwable ex) {

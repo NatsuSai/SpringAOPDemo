@@ -3,10 +3,12 @@ package com.abc.advice;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 
 @Aspect
+@Component
 public class AdviceTest {
     @Around("execution(* com.abc.service.*.many*(..))")
     public Object process(ProceedingJoinPoint point) throws Throwable {

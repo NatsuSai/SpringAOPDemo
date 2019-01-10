@@ -1,4 +1,4 @@
-package com.abc.main;
+package com.abc;
 
 import com.abc.service.AdviceManager;
 import org.springframework.context.ApplicationContext;

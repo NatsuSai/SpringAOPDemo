@@ -2,8 +2,10 @@ package com.abc.advice;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.springframework.stereotype.Component;
 
 @Aspect
+@Component
 public class BeforeAdviceTest {
     //匹配com.abc.service下的类中以before开始的方法
     @Before("execution(* com.abc.service.*.before*(..))")
