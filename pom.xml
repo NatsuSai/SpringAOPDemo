@@ -6,11 +6,10 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.9.RELEASE</version>
-        <relativePath>pom.xml</relativePath>
+        <version>2.1.6.RELEASE</version>
     </parent>
 
-    <groupId>com.kurenai.demo</groupId>
+    <groupId>io.github.natsusai.aop</groupId>
     <artifactId>SpringAOPDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -26,6 +25,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
     </dependencies>
 
