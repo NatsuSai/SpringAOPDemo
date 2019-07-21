@@ -1,4 +1,4 @@
-package com.abc.advice;
+package io.github.natsusai.aop.advice;
 
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
@@ -12,7 +12,7 @@ import java.util.Date;
 public class AccessArgAdviceTest {
     @AfterReturning(
 //            pointcut="execution(* com.abc.service.*.access*(..)) && args(time, name)",
-            pointcut = "@annotation(com.abc.service.MyTest) && args(time, name)" ,
+            pointcut = "@annotation(io.github.natsusai.aop.service.MyTest) && args(time, name)" ,
             returning="returnValue")
     public void access(Date time, Object returnValue, String name) {
         System.out.println("目标方法中的参数String = " + name);
@@ -20,7 +20,7 @@ public class AccessArgAdviceTest {
         System.out.println("目标方法的返回结果returnValue = " + returnValue);
     }
 
-    @Pointcut("@annotation(com.abc.service.MyTest) && args(time, name)")
+    @Pointcut("@annotation(io.github.natsusai.aop.service.MyTest) && args(time, name)")
     public void pointCut(Date time, String name) {
 
     }

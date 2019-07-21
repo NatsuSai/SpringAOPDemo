@@ -1,6 +1,6 @@
-package com.abc;
+package io.github.natsusai.aop;
 
-import com.abc.service.AdviceManager;
+import io.github.natsusai.aop.service.AdviceManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

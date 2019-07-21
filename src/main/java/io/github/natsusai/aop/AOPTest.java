@@ -1,6 +1,6 @@
-package com.abc;
+package io.github.natsusai.aop;
 
-import com.abc.service.AdviceManager;
+import io.github.natsusai.aop.service.AdviceManager;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

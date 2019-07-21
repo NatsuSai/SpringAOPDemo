@@ -1,4 +1,4 @@
-package com.abc;
+package io.github.natsusai.aop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

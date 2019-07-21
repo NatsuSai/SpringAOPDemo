@@ -1,4 +1,4 @@
-package com.abc.advice;
+package io.github.natsusai.aop.advice;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

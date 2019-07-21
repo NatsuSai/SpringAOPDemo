@@ -1,4 +1,4 @@
-package com.abc.advice;
+package io.github.natsusai.aop.advice;
 
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;

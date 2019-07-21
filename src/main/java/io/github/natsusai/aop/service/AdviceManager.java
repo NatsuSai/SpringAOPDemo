@@ -1,4 +1,4 @@
-package com.abc.service;
+package io.github.natsusai.aop.service;
 
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.GetMapping;

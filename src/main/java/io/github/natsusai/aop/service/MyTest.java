@@ -1,4 +1,4 @@
-package com.abc.service;
+package io.github.natsusai.aop.service;
 
 import java.lang.annotation.*;
 
