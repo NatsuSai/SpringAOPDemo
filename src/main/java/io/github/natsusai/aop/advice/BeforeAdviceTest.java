@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class BeforeAdviceTest {
     //匹配com.abc.service下的类中以before开始的方法
-    @Before("execution(* com.abc.service.*.before*(..))")
+    @Before("execution(* io.github.natsusai.aop.service.*.before*(..))")
     public void PermissionCheck() {
         System.out.println("模拟权限检查");
     }
